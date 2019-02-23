@@ -19,7 +19,6 @@
             Footer,
         },
         created: function () {
-            console.log('a');
             axios.interceptors.response.use(undefined, function (err) {
                 return new Promise(function (resolve, reject) {
                     if (err.status === 401 && err.config && !err.config.__isRetryRequest) {
@@ -30,11 +29,9 @@
                     throw err;
                 });
             });
-            console.log('b');
             if (this.$store.getters.isAuthenticated) {
                 this.$store.dispatch(USER_REQUEST)
             }
-            console.log('c');
         }
     }
 </script>
