@@ -9,6 +9,8 @@
         <form class="login-form" @submit.prevent="login">
             <h3>Login to site</h3>
 
+            <p>Use any email/password combination</p>
+
             <label>Email: *</label>
             <input required v-model="email" type="text" placeholder="Email"/>
 
@@ -50,11 +52,6 @@
 </script>
 
 <style scoped>
-    img {
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-    }
     .login-form {
         display: flex;
         flex-direction: column;
@@ -73,5 +70,9 @@
     .reset-link{
         text-align: left;
         padding: 5px;
+    }
+    p {
+        margin: 0;
+        color: darkgray;
     }
 </style>

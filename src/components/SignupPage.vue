@@ -50,11 +50,6 @@
 </script>
 
 <style scoped>
-    img {
-        display: block;
-        margin: auto;
-        margin-bottom: 10px;
-    }
     .login-form {
         display: flex;
         flex-direction: column;

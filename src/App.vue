@@ -62,6 +62,7 @@
     }
     .logo {
         border-radius: 10px;
+        margin-bottom: 10px;
     }
 
 </style>
