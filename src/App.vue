@@ -45,26 +45,23 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
-        color: #2c3e50;
-        border: 1px solid green;
         padding: 10px;
         min-height: calc(100vh - 70px);
     }
     body {
         background-color: #ffffff;
-        /*font-size: 13px;*/
-        border: 1px solid red;
-
         margin: auto;
+    }
+    a {
+        color: #6f0102;
     }
     ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
     }
-</style>
-
-<style scoped>
-    .main-container {
+    .logo {
+        border-radius: 10px;
     }
+
 </style>

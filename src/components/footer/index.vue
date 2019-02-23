@@ -2,7 +2,7 @@
 
     <div>
         <hr/>
-        <p>Máster en Ingeniería de Servicios y Aplicaciones Web, Universitat de València</p>
+        <p>Your site footer ©</p>
     </div>
 </template>
 

@@ -3,7 +3,7 @@
     <div class="main-wrapper">
 
         <a href="/login">
-            <img alt="Crypfolio logo" src="../assets/logo_big_mariadb.png">
+            <img class="logo" alt="Site logo" src="../assets/logo_big.png">
         </a>
 
         <form class="login-form" @submit.prevent="signup">
@@ -55,11 +55,6 @@
         margin: auto;
         margin-bottom: 10px;
     }
-
-    .main-wrapper {
-        padding-top: calc(30vh - 100px);
-    }
-
     .login-form {
         display: flex;
         flex-direction: column;
@@ -69,11 +64,9 @@
         border: 1px solid #2c3e50;
         border-radius: 3px;
     }
-
     input, button {
         padding: 10px;
     }
-
     .button-login {
         margin-top: 10px;
     }

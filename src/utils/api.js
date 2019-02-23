@@ -1,6 +1,6 @@
 const mocks = {
     'auth': { 'POST': { token: 'This-is-a-mocked-token' } },
-    'user/me': { 'GET': { name: 'doggo', title: 'sir' } }
+    'user/me': { 'GET': { name: 'Yong Lin', title: 'prof.' } }
 };
 
 const apiCall = ({url, method, ...args}) => new Promise((resolve, reject) => {

@@ -3,11 +3,11 @@
     <div class="main-wrapper">
 
         <a href="/login">
-            <img alt="Crypfolio logo" src="../assets/logo_big_mariadb.png">
+            <img class="logo" alt="Site logo" src="../assets/logo_big.png">
         </a>
 
         <form class="login-form" @submit.prevent="login">
-            <h3>Login to crypfolio</h3>
+            <h3>Login to site</h3>
 
             <label>Email: *</label>
             <input required v-model="email" type="text" placeholder="Email"/>
@@ -54,9 +54,6 @@
         display: block;
         margin: auto;
         margin-bottom: 10px;
-    }
-    .main-wrapper {
-        padding-top: calc(30vh - 100px);
     }
     .login-form {
         display: flex;
